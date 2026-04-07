@@ -30,7 +30,7 @@ async function set_release_data() {
     document.getElementsByClassName("nightly-button")[0].href = nightly_url;
 
     if (name[0] == "v") {name = name.slice(1)}
-    document.getElementById("version").innerText = "Download latest version: " + name;
+    document.getElementById("version").innerText = "Download stable build: " + name;
 }
 
 set_release_data()
